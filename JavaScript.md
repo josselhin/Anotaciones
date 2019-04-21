@@ -146,10 +146,77 @@ Dentro del Homepage de la plataforma vas a encontrar todas las funcionalidades q
 
 
 # Arquitectura Frontend
-Hablemos un poco acerca del frontend que tenemos por defecto en nuestra aplicación. Por defecto tienes todo desactivado, pero de acuerdo con las necesidades de tu aplicación podrás hacer cambios y configuraciones específicas.
+El frontend que tenemos por defecto en nuestra aplicación. Por defecto tienes todo desactivado, pero de acuerdo con las necesidades de tu aplicación podrás hacer cambios y configuraciones específicas.
 
-En este video exploramos todos los folders disponibles para que hagas modificaciones en el frontend de tu app.
+Exploramos todos los folders disponibles para que hagas modificaciones en el frontend de tu app.
 
-En el siguiente video vamos a adentrarnos en Parasails.js.
+# Parasails.js
+Lo que hace es darnos un empaque para el uso de VueJS.
+
+Te muestro algunas de las funcionalidades que tiene SailsJS para que las configures de acuerdo con lo que necesitas en tu app.
+
+# Como subir un proyecto local a github.
+
+```
+git init
+
+git add .
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+
+git push -u origin master
+
+//ERROR FATAL: Solution
+$ git remote set-url origin git@github.com:ppreyer/first_app.git
 
 
+```
+# Parasails (by Mike McNeil)
+En este video vamos a ver qué es Parasails y cómo funciona para la creación de apps. Lo que hace es darnos un empaque para el uso de VueJS.
+
+Te muestro algunas de las funcionalidades que tiene SailsJS para que las configures de acuerdo con lo que necesitas en tu app.
+
+Estructuras livianas para aplicaciones con más de una página. Construido encima de Vue.js .
+
+Si bien se puede usar con cualquier sistema de módulos, esta biblioteca no depende de Webpack, Babel, Gulp, Grunt, Brunch o cualquier otro sistema de compilación o transpiler. Es 2.96KB minificado y comprimido gzip (o 27KB sin comprimir).
+
+Uso
+Fuera de la caja, parasails admite:
+
+páginas
+componentes
+utilidades
+constantes
+Además de algunas integraciones opcionales:
+
+Vue Router (para enrutamiento del lado del cliente / “páginas virtuales”)
+jQuery (para this.$get(), this.$find()y this.$focus())
+
+``` javascript 
+< div  id = " página de inicio "  v-cloak >
+  < h1 > {{welcomeMessage}} </ h1 >
+  < botón  autofocus @ click = " clickButton () " > Haga clic en mí </ button >
+</ div >
+
+```
+
+``` javascript
+parasails.registerPage('página de inicio',{
+  datos:{
+    welcomeMessage: ' '
+  },
+  beforeMount: function(){
+     this.welcomeMessage = '¡Hola mundo!';
+  },
+  montado: función(){
+     esto.$focus('[enfoque automático]');
+  },
+  métodos:{
+     clickButton: function(){
+       this.welcomeMessage = '¡Ow que duele!';
+    }
+  }
+});
+```
