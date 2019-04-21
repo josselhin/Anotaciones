@@ -55,4 +55,69 @@ Los prerequisitos para este curso son:
 * Conocimientos en HTML, CSS, and experiencia con JS
 * Conocimientos básicos de cómo usar NPM and GitHub
 
+# Las tecnologías que vamos a usar
+Hablemos un poco acerca de las tecnologías que vamos a usar en este curso y por qué vamos a usarlas. JavaScript es un lenguaje que vamos a usar por la capacidad que tiene de adaptarse a distintos proyectos.
+
+En este curso vamos a usar:
+
+* ECMA Script
+* NodeJS
+* Stripe
+* VueJS
+* Mailgun
+* Heroku
+
+[Repositorio de clonacion](https://github.com/mikermcneil/ration) 
+
+
+# Lo que vamos a construir
+En este curso vamos a desarrollar un proyecto para facilitar rentar elementos de amigos. Nos concentraremos en crear la parte técnica de una aplicación desarrollada a través de JavaScript.
+
+Overview del curso:
+
+* Configuración
+* Los esenciales
+* Creando funcionalidades a la medida
+* Crecimiento y monetización
+* Yendo a producción
+
+# Evitando errores en tu código
+En este material te enseño acerca de cómo evitar bugs en nuestro código y para eso te muestro cuáles son las configuraciones para el entorno.
+
+Lo primero que hacemos es usar folder_exclude_patterns para evitar perder los cambios que realicemos. Además, te muestro las mejores formas de configurar tu entorno para evitar cualquier tipo de contratiempo.
+
+# Usando la terminal en este proyecto
+
+Ahora vamos a ir a la Terminal, aquí te voy a mostrar cómo usarla para nuestro proyecto.
+
+A muchas personas que están aprendiendo código les recomiendo que cambien el color de la terminal para que la luz no lastime sus ojos.
+
+# Usando GitHub en nuestro proyecto
+Cuando hablamos sobre las versiones de código podemos enfocarnos en usar Git para guardarlas.
+
+En este material te enseño cómo usar GitHub para nuestro proyecto, sus configuraciones básicas. Te muestro cómo crear una repo y por qué es mejor trabajar con repos en lugar de la terminal.
+
+Les recomiendo bajar la aplicación web de GitHub con la que podremos guardar nuestras verisones.
+
+
+# Instalando nuestras plataformas y dependencias
+
+```
+npm install eslint -g
+```
+
+```
+npm install sails -g
+
+sails new ration //nombre de la aplicacion
+
+cd ration //ingresas a la carpeta
+
+```
+Ejecutas:
+```
+sails lift
+```
+[Abres el navegador](http://localhost:1337
+)
 
