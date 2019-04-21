@@ -118,6 +118,38 @@ Ejecutas:
 ```
 sails lift
 ```
-[Abres el navegador](http://localhost:1337
-)
+[Abres el navegador](http://localhost:1337)
+
+[Curso de JavaScript Full Stack con Sails.js: configuraciones - extensiones](https://github.com/MineiToshio/CursosPlatzi/tree/master/Curso%20de%20JavaScript%20Full%20Stack%20con%20Sails.js#configuraci%C3%B3n-de-vs-code)
+
+[ration:repositorio](https://github.com/mikermcneil/ration)
+
+[Curso de JavaScript Full Stack con Sails.js](https://github.com/MineiToshio/CursosPlatzi/tree/master/Curso%20de%20JavaScript%20Full%20Stack%20con%20Sails.js)
+
+[commits](https://github.com/MineiToshio/CursosPlatzi/commits?author=MineiToshio)
+
+[nano-chat](https://github.com/stackbuilders/nano-chat)
+
+[developers.google](https://developers.google.com/web/updates/2019/01/devtools)
+
+[Fragmentos de Sails.js](https://marketplace.visualstudio.com/items?itemName=OsirisFrik.sails-js-snippets)
+
+# Arquitectura Backend
+En esta sección vamos a ver arquitectura, autentificación y las configuraciones generales de la plataforma de Sails.
+
+Comenzamos con la exploración de la plataforma, te muestro las opciones que tienes para configurar la internacionalización de tu aplicación.
+
+Dentro del Homepage de la plataforma vas a encontrar todas las funcionalidades que tienes dentro de Sails. Comandos, la API, redirects, etc.
+
+[sails.config.session
+](https://sailsjs.com/documentation/reference/configuration/sails-config-session)
+
+
+# Arquitectura Frontend
+Hablemos un poco acerca del frontend que tenemos por defecto en nuestra aplicación. Por defecto tienes todo desactivado, pero de acuerdo con las necesidades de tu aplicación podrás hacer cambios y configuraciones específicas.
+
+En este video exploramos todos los folders disponibles para que hagas modificaciones en el frontend de tu app.
+
+En el siguiente video vamos a adentrarnos en Parasails.js.
+
 
