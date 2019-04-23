@@ -220,3 +220,12 @@ parasails.registerPage('página de inicio',{
   }
 });
 ```
+
+dependen
+assets, js , pages 
+veras cada vista en cada accion de vista hay un archivo page .js
+
+assets, dependecies.parasails.js
+nos da cierta estructura para las paginas, renderizadas del servidor, caracteristicas de la aplicacion que son nuevas.
+
+Paginas virtuales: enrutamiento del lado del cliente.
